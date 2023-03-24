@@ -8,3 +8,5 @@ RUN mkdir /var/lib/clickhouse/
 RUN chmod -R 777 /var/lib/clickhouse/*
 
 RUN curl https://clickhouse.com/ | sh
+
+RUN ./clickhouse server
