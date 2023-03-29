@@ -2,6 +2,8 @@ FROM python:3.7
 
 EXPOSE 18123
 EXPOSE 19000
+EXPOSE 8443
+EXPOSE 9000
 
 RUN chmod -R 777 /var/lib/*
 RUN mkdir /var/lib/clickhouse/
